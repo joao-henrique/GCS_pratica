@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int soma(int a,int b){
-	return a+b;
+double subtracao(double num1, double num2){
+    return num1-num2;
 }
 
 int main (){
+
     int option;
 
     printf("Escolha sua  opção: \n");
@@ -21,13 +22,12 @@ int main (){
             printf("Soma = %d\n",soma(a,b));
         break;
         case 2:
-
+            int a=1,b=2;
+            printf("Soma = %d\n",subtracao(a,b));
         case 3:
 
         case 4:
 
         case 5:
     }
-
-
 }
