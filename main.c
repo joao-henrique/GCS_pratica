@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 double subtracao(double num1, double num2){
     return num1-num2;
 }
@@ -11,6 +10,11 @@ int multiplica(int number1, int number2) {
 
 int soma (int a , int b){
   return a+b;
+
+int multiplica(int number1, int number2) {
+
+	return number1 * number2;
+
 }
 
 int main (){
@@ -33,9 +37,12 @@ int main (){
             a=3,b=2;
             printf("Multiplicacao = %d\n",multiplica(a,b));
         case 3:
-
+          a=1,b=2;
+        printf("Subtração = %d\n",subtracao(a,b));
         break;
         case 4:
+
+
         break;
         case 5 :
         break;
