@@ -31,3 +31,11 @@ int main (){
         case 5:
     }
 }
+void dividir(){
+	int valor1, valor2;
+	print("informe o primeiro valor:\n");
+	scanf("%d", &valor1);
+	print("informe o primeiro valor:\n");
+	scanf("%d", &valor2);
+	scanf("o resultado é: %d", valor1/valor2);
+}
