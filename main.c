@@ -1,12 +1,18 @@
 #include <stdio.h>
 
-int soma(int a,int b){
-	return a+b;
+
+double subtracao(double num1, double num2){
+    return num1-num2;
+}
+
+int multiplica(int number1, int number2) {
+	return number1 * number2;
 }
 
 int main (){
-    int option;
 
+    int option;
+    int a, b;
     printf("Escolha sua  opção: \n");
     printf(" 1 - Soma\n");
     printf(" 2 -  Multplicação\n");
@@ -17,25 +23,16 @@ int main (){
 
     switch (option) {
         case 1:
-            int a=1,b=2;
+            a=1,b=2;
             printf("Soma = %d\n",soma(a,b));
         break;
         case 2:
-
+            a=3,b=2;
+            printf("Multiplicacao = %d\n",multiplica(a,b));
         case 3:
 
         case 4:
 
         case 5:
     }
-
-
-}
-void dividir(){
-	int valor1, valor2;
-	print("informe o primeiro valor:\n");
-	scanf("%d", &valor1);
-	print("informe o primeiro valor:\n");
-	scanf("%d", &valor2);
-	scanf("o resultado é: %d", valor1/valor2);
 }
